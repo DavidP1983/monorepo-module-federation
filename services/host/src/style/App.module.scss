@@ -1,0 +1,50 @@
+.btn {
+    background-color: #800009;
+    color: #ffff;
+    padding: 10px 10px;
+}
+
+.title {
+    font-size: 100px;
+}
+
+.main {
+    // height: 100%;
+    height: 100vh;
+    // background: linear-gradient(to right, #956e2d ,rgba(195,159,85, 0.7),#cdab61 ,#956e2d);
+    background: linear-gradient(135deg, #ffcc00, #ffa500);
+    display: flex;
+    justify-content: center;
+    & .img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+       & .slot {
+            position: absolute;
+            right: 2px;
+            top: 11px;
+            aspect-ratio: 3/2;
+            width: 57%;
+            height: 98%;
+            object-fit: cover;
+        }
+        
+    }
+    
+}
+
+// .img {
+//     position: relative;
+//     width: 100%;
+//     height: 100%;
+// }
+
+// .slot {
+//     position: absolute;
+//     right: 2px;
+//     top: 11px;
+//     aspect-ratio: 3/2;
+//     width: 57%;
+//     height: 98%;
+//     object-fit: cover;
+// }
